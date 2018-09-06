@@ -21,6 +21,7 @@ def key_for_min_value(name_hash)
         i += 1
         sample_numbers
       end
+    end
       lowest_number.push(sample_numbers[0])
       if lowest_number[0] == number
         winner = name
