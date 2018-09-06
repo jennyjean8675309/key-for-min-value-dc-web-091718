@@ -16,9 +16,8 @@ def key_for_min_value(name_hash)
     i = 0
     while i < sample_numbers.length
       lowest_number = []
-      if sample_numbers[i] > sample_numbers[i + 1]  && sample_numbers[i] != sample_numbers.length - 1
+      if sample_numbers[i] > number
         sample_numbers.shift
-        sample_numbers
       end
       i += 1
     end
