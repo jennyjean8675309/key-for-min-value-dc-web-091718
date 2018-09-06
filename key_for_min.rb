@@ -19,7 +19,7 @@ def key_for_min_value(name_hash)
       if sample_numbers[i] > number
         sample_numbers.shift
       elsif sample_numbers[i] < number 
-        sample_numbers.delete_at(1)
+        sample_numbers.delete(number)
         sample_numbers
       end
       i += 1
