@@ -19,8 +19,10 @@ def key_for_min_value(name_hash)
       if sample_numbers[i] > sample_numbers[i + 1]
         sample_numbers.shift
         i += 1
-        lowest_number.push(sample_numbers[0])
-        if lowest_number[0] == number
+        sample_numbers
+      end
+      lowest_number.push(sample_numbers[0])
+      if lowest_number[0] == number
         winner = name
       end
     end
