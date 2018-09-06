@@ -12,7 +12,6 @@ def key_for_min_value(name_hash)
     name_hash.each do |name, number|
       sample_numbers.push(number)
     end
-    binding.pry
     name_hash.each do |name, number|
     i = 0
     while i < sample_numbers.length
