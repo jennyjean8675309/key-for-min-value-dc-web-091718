@@ -25,6 +25,7 @@ def key_for_min_value(name_hash)
       if lowest_number[0] == number
         winner = name
       end
-    end winner
+    end 
+    winner
   end
 end
