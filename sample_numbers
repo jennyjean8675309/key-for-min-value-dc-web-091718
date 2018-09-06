@@ -1,0 +1,29 @@
+
+[1mFrom:[0m /home/jennyjean8675309/key-for-min-value-dc-web-091718/key_for_min.rb @ line 15 Object#key_for_min_value:
+
+     [1;34m6[0m: [32mdef[0m [1;34mkey_for_min_value[0m(name_hash)
+     [1;34m7[0m:   sample_numbers = []
+     [1;34m8[0m:   winner = [31m[1;31m'[0m[31m[1;31m'[0m[31m[0m
+     [1;34m9[0m:   [32mif[0m name_hash == {}
+    [1;34m10[0m:     [1;36mnil[0m
+    [1;34m11[0m:   [32melse[0m
+    [1;34m12[0m:     name_hash.each [32mdo[0m |name, number|
+    [1;34m13[0m:     sample_numbers.push(number)
+    [1;34m14[0m:     [32mend[0m
+ => [1;34m15[0m:     binding.pry
+    [1;34m16[0m:     name_hash.each [32mdo[0m |name, number|
+    [1;34m17[0m:     i = [1;34m0[0m
+    [1;34m18[0m:     [32mwhile[0m i < sample_numbers.length
+    [1;34m19[0m:       [32mif[0m sample_numbers[i] > sample_numbers[i + [1;34m1[0m]
+    [1;34m20[0m:         sample_numbers.shift
+    [1;34m21[0m:         i += [1;34m1[0m
+    [1;34m22[0m:       [32mend[0m
+    [1;34m23[0m:         sample_numbers[[1;34m0[0m] = lowest_number
+    [1;34m24[0m:       [32mif[0m lowest_number = number
+    [1;34m25[0m:         winner = name
+    [1;34m26[0m:       [32mend[0m
+    [1;34m27[0m:     [32mend[0m
+    [1;34m28[0m:   [32mend[0m
+    [1;34m29[0m: [32mend[0m
+    [1;34m30[0m: [32mend[0m
+
