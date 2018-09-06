@@ -14,9 +14,9 @@ def key_for_min_value(name_hash)
     end
     name_hash.each do |name, number|
     i = 0
-    while i <= sample_numbers.length
+    while i < sample_numbers.length
       lowest_number = []
-      if sample_numbers[i] > sample_numbers[i + 1]
+      if sample_numbers[i] > sample_numbers[i + 1]  && sample_numbers[i] != sample_numbers.length - 1
         sample_numbers.shift
         sample_numbers
       end
